@@ -8,7 +8,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ubago comparer</title>
-    <link rel="stylesheet" href="../AlexUbagoComparer/src/styles.css">
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body class="body ">
   
@@ -74,6 +74,8 @@ function getRandomSinger()
             "La Oreja de Van Gogh",
             "Vanesa Martín",
             "Joaquín Sabina",
+            "Quevedo",
+            "Wos",
             "Pereza",
             "Malú",
             "Mecano",
@@ -81,9 +83,9 @@ function getRandomSinger()
             "Lola Flores",
             "Ockami",
             "Rozalén",
-            "Post Malone",
+            "Belén Aguilera",
             "Doja Cat",
-            "Ozuna",
+            "Tokischa",
             "Karol G",
             "Becky G",
             "J Balvin",
@@ -114,12 +116,13 @@ function getRandomSinger()
             "Mónica Naranjo",
             "Rocio Jurado",
             "Omar Montes",
+            "Tini",
             "Dua Lipa",
             "Natalia Lacunza",
             "Morat",
             "Eminem",
             "Amaral",
-            "Daddy Yankee",
+            "Chanel Terrero",
             "Dr. Dre",
             "Snoop Dogg",
             "Kase.O",
@@ -227,7 +230,7 @@ echo "<p class='randomSingerText'> Adivina si $randomSinger tiene más o menos.<
     
     echo "<div class='image-container'>";
     echo "<img src='$alexUbagoImage' alt='Imagen de Álex Ubago' class='artist-image'>";
-    echo "<img src='../AlexUbagoComparer/src/assets/img/vs.webp' alt='vs' class= 'vs'>";
+    echo "<img src='/src/assets/img/vs.webp' alt='vs' class= 'vs'>";
     echo "<img src='$randomSingerImage' alt='Imagen de $randomSinger' class='artist-image scale-in-center'>";
     echo "</div>";
     echo "<form method='post'>";
