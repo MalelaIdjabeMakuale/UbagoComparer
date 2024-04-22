@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ubago comparer</title>
-    <link rel="stylesheet" href="/src/styles.css">
+    <link rel="stylesheet" href="../AlexUbagoComparer/src/styles.css">
 </head>
 <body class="body ">
   
@@ -224,7 +224,7 @@ echo "<p class='randomSingerText'> Adivina si $randomSinger tiene más o menos.<
     
     echo "<div class='image-container'>";
     echo "<img src='$alexUbagoImage' alt='Imagen de Álex Ubago' class='artist-image'>";
-    echo "<img src='../assets/img/vs.webp' alt='vs' class= 'vs'>";
+    echo "<img src='../AlexUbagoComparer/src/assets/img/vs.webp' alt='vs' class= 'vs'>";
     echo "<img src='$randomSingerImage' alt='Imagen de $randomSinger' class='artist-image scale-in-center'>";
     echo "</div>";
     echo "<form method='post'>";
