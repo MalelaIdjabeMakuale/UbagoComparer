@@ -1,1 +1,3 @@
-AddType text/css .css
+<IfModule mod_mime.c>
+    AddType text/css .css
+</IfModule>
