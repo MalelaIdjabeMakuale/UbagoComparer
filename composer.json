@@ -1,0 +1,17 @@
+{
+    "name": "malela/alex-ubago-comparer",
+    "description": "Comparador de escuchas de Spotify",
+    "autoload": {
+        "psr-4": {
+            "Malela\\AlexUbagoComparer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Malela Idjabe Makuale"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
