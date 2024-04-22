@@ -80,7 +80,7 @@ font-size: small;
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('../AlexUbagoComparer/src/assets/img/background.webp');
+  background-image: url('./src/assets/img/background.webp');
   filter: blur(5px);
   z-index: -1;
 }
