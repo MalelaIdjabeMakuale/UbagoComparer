@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,9 +12,8 @@
 </head>
 <body class="body ">
   
-<?php
-session_start();
 
+<?php
 
 if (!isset($_SESSION['score'])) {
     $_SESSION['score'] = 0;
