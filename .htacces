@@ -4,7 +4,7 @@ RewriteEngine On
 # Establecer la ruta base para la aplicación
 RewriteBase /
 
-# Permitir el acceso a los archivos estáticos (como CSS, JS, imágenes)
+# Permitir el acceso directo a los archivos estáticos (como CSS, JS, imágenes)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
