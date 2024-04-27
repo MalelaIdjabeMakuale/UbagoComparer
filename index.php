@@ -230,7 +230,7 @@ session_start();
 
         echo "<div class='header'>";
         echo "<p class='alex'><strong>ÁLEX UBAGO COMPARER</strong> </p>";
-        echo "<p class='randomSingerText'> $randomSinger tiene, ¿más o menos oyentes que Álex Ubago?</p>";
+        echo "<p class='randomSingerText'> $randomSinger tiene ¿más o menos oyentes que Álex Ubago?</p>";
         echo "</div>";
 
 
@@ -250,6 +250,7 @@ session_start();
         echo "<p class='score'> {$_SESSION['score']}</p>";
         echo "</div>";
         echo "</form>";
+        echo "<footer class='footer'><p>© 2024 Malela Idjabe Makuale. Desarrollado con Angular. Actualizado en abril de 2024.</p></footer>";
 
 
         if (isset($_SESSION['score > 0'])) {
