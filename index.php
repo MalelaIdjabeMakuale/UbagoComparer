@@ -117,7 +117,6 @@ session_start();
                 "Ana Mena",
                 "Mónica Naranjo",
                 "Rocio Jurado",
-                "Omar Montes",
                 "Tini",
                 "Dua Lipa",
                 "Natalia Lacunza",
